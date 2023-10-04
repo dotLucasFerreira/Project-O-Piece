@@ -6,8 +6,12 @@
 
 body {
     background-color: black;
-    overflow-x:hidden;
-    overflow-y: auto;
+ 
+
+}
+
+main .personagens{
+    -webkit-overflow-scrolling: touch;
 }
 
 main::after {
