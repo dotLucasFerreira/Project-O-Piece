@@ -7,7 +7,7 @@
 body {
     background-color: black;
     -webkit-overflow-scrolling: touch;
- 
+
 
 }
 
@@ -32,7 +32,7 @@ main .personagem {
 
 main .personagem.selecionado {
     display: block;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 main .personagem .imagem {
@@ -78,31 +78,31 @@ main .personagem .imagem {
 
 .botoes {
     position: fixed;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:180px;
-    min-height:100vh;
+    width: 180px;
+    min-height: 100vh;
     align-items: center;
     gap: 10px;
     object-fit: cover;
 }
 
-.botoes .botao{
-    border:none;
+.botoes .botao {
+    border: none;
     background: none;
     background-color: black;
     cursor: pointer;
     border-radius: 50%;
 }
 
-.botoes .botao img{
+.botoes .botao img {
     border-radius: 50%;
 }
 
-.botoes .botao.selecionado{
+.botoes .botao.selecionado {
     transform: scale(1.2);
     box-shadow: 0 0 10px #d9d9d9;
 }
