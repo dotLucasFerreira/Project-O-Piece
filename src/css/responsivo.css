@@ -52,7 +52,8 @@
         top: -30%;
         min-height: 100vh;
         min-width: 100vw;
-        padding:0;
+        padding:10px;
+        margin:0 auto;
     }
 
     .conteudo .nome-personagem .descricao{
